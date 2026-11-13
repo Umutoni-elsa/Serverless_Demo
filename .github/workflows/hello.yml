@@ -1,0 +1,8 @@
+name: serverless-demo
+on: [push]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running on a serverless runner, triggered by my git push"
+      - run: date
